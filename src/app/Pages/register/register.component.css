@@ -1,0 +1,140 @@
+.container-fluid {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(../../../assets/img/dumbbell.jpg);
+    background-size: cover;
+    background-position: center;
+    height: auto;
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    flex-direction: column;
+}
+
+.navbar {
+    /* width: 85%; */
+    /* padding: 35px 0;
+    margin: auto; */
+    display: flex;
+    align-items: centers;
+    justify-content: left;
+}
+
+.navbar ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+input {
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 15px;
+    height: 40px;
+    width: 100%;
+    margin-bottom: 10px !important;
+    color: rgb(21, 28, 28);
+}
+
+.content {
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    transform: translateY(-50%, -50%);
+    color: aquamarine;
+}
+
+p {
+    text-align: center;
+}
+
+h4 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+button {
+    color: cadetblue;
+    border: 1px solid white;
+    border-radius: 15px;
+    height: 40px;
+    width: 100%;
+    margin-bottom: 10px !important;
+}
+
+i {
+    margin-left: 5px;
+    margin-top: 5px;
+    font-size: 20px;
+    border-color: aqua;
+}
+
+h1 {
+    font-family: fantasy;
+}
+
+.h4 text {
+    text-align: center;
+    font-size: 20px;
+    line-height: 60px;
+    margin: 0 0 25px
+}
+
+.footer {
+    background-color: transparent;
+    margin-top: 100px;
+    color: white
+}
+
+.divider-text {
+    position: relative;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.divider-text span {
+    padding: 7px;
+    font-size: 12px;
+    position: relative;
+    z-index: 2;
+}
+
+.divider-text:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    border-bottom: 1px solid #ddd;
+    top: 55%;
+    left: 0;
+    z-index: 1;
+}
+
+.btn-facebook {
+    background-color: #405D9D;
+    color: #fff;
+}
+
+.btn-twitter {
+    background-color: #42AEEC;
+    color: #fff;
+}
+
+.col-3 {
+    width: auto;
+}
+
+.card-body {
+    flex: 1 1 auto;
+    padding: 1rem 1rem;
+    color: darkblue;
+    background-color: transparent;
+}
